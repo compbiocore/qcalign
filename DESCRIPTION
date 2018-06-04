@@ -1,10 +1,15 @@
 Package: qckitalign
 Title: Quality Control for Mapped Reads
 Version: 0.1
-Authors@R: person("August", "Guang", email = "august.guang@gmail.com",
-                  role = c("aut", "cre"))
+Authors@R: c(person("August", "Guang", email = "august.guang@gmail.com",
+                  role = c("aut", "cre")),
+          person("Wenyue", "Xing", email="wenyue_xing@brown.edu", role = c("aut")))
 Description: Part of the qckit family, this package provides basic read alignment statistics for reads that have mapped to a reference genome.
 Depends: R (>= 3.1.0)
 License: Artistic-2.0
 LinkingTo: Rcpp, RSeqAn
 LazyData: true
+Imports: Rcpp, Rsamtools
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
