@@ -1,5 +1,5 @@
-#' length of entire bam file
-#' @param bamfile the path to the BAM file
+#' Returns the number of positions in the BAM file alignment.
+#' @param bamfile path to the BAM file
 #' @export
 #' @importFrom Rsamtools ScanBamParam scanBam
 
