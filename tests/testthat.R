@@ -1,4 +1,4 @@
 library(testthat)
-library(QCRNAseq)
+library(qckitalign)
 
-test_check("QCRNAseq")
+test_check("qckitalign")
