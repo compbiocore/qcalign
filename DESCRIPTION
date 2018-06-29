@@ -7,7 +7,6 @@ Authors@R: c(person("August", "Guang", email = "august.guang@gmail.com",
 Description: Part of the qckit family, this package provides basic read alignment statistics for reads that have mapped to a reference genome.
 Depends: R (>= 3.1.0)
 License: Artistic-2.0
-LinkingTo: Rcpp, RSeqAn
 LazyData: true
 Imports: Rcpp, Rsamtools, GenomicRanges, IRanges
 Suggests: knitr,
